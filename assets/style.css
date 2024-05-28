@@ -38,3 +38,11 @@
   grid-column: 4/5;
   grid-row: 2/4;
 }
+
+@media screen and (max-width: 700px) {
+  .grid-parents {
+    grid-template-columns: 1fr;
+    /*grid-template-rows: repeat(******)...і т.д*/
+
+  }
+}
